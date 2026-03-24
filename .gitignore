@@ -1,0 +1,26 @@
+# Compiled binary
+flower_exchange
+flower_exchange.exe
+
+# Object files
+*.o
+*.obj
+
+# Generated output (created at runtime — not source code)
+execution_rep.csv
+
+# macOS system files
+.DS_Store
+__MACOSX/
+
+# VS Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Build directories
+build/
+bin/
+out/
