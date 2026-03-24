@@ -1,5 +1,6 @@
 Cl.Or.ID,Instrument,Side,Quantity,Price
-aa13,Rose,2,100,55.00
-aa14,Rose,2,100,45.00
-aa15,Rose,1,100,35.00
-
+aa13,,1,55.00,100
+aa14,Rose,3,65.00,100
+aa15,Lavender,2,1.00,101
+aa16,Tulip,1,-1.00,100
+aa17,Orchid,1,1.00,1001
