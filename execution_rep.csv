@@ -1,6 +1,7 @@
 Order ID,Cl.Ord.ID,Instrument,Side,Exec Status,Quantity,Price,Reason,TransactionTime
-ord1,aa13,,1,Reject,55,100.00,Invalid instrument,20260324-181618.812
-ord2,aa14,Rose,3,Reject,65,100.00,Invalid side,20260324-181618.813
-ord3,aa15,Lavender,2,Reject,1,101.00,Invalid size,20260324-181618.813
-ord4,aa16,Tulip,1,Reject,-1,100.00,Invalid size,20260324-181618.813
-ord5,aa17,Orchid,1,Reject,1,1001.00,Invalid size,20260324-181618.813
+ord1,aa13,Rose,1,New,100,55.00,,20260324-200014.340
+ord2,aa14,Rose,1,New,100,65.00,,20260324-200014.342
+ord3,aa15,Rose,2,Pfill,100,65.00,,20260324-200014.342
+ord2,aa14,Rose,1,Fill,100,65.00,,20260324-200014.342
+ord3,aa15,Rose,2,Pfill,100,55.00,,20260324-200014.342
+ord1,aa13,Rose,1,Fill,100,55.00,,20260324-200014.342

@@ -48,17 +48,11 @@ int main() {
     vector<Report> allReports;
 
     string line;
-    bool firstLine = true;
+    getline(file, line);
 
     while (getline(file, line)) {
         line = trim(line);
         if (line.empty()) continue;
-
-        // Skip header
-        if (firstLine) {
-            firstLine = false;
-            if (line.find("Cl.Or.ID") != string::npos) continue;
-        }
 
         vector<string> parts = splitCSV(line);
 
