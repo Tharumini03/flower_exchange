@@ -68,7 +68,7 @@ bool validateOrder(std::string clientId, std::string ins, int side, double price
         return false;
     }
 
-    if (qty < 10 || qty >= 1000 || qty % 10 != 0) {
+    if (qty < 10 || qty > 1000 || qty % 10 != 0) {
         reason = "Invalid size";
         return false;
     }
