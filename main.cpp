@@ -37,10 +37,19 @@ void writeReports(string filename, vector<Report> reports) {
     }
 }
 
-int main() {
-    ifstream file("orders.csv");
+int main(int argc, char* argv[]) {
+    string inputFile;
+    if (argc >= 2) {
+        inputFile = "example_inputs/" + string(argv[1]);
+    } else {
+        cout << "Usage: ./flower_exchange <filename.csv>\n";
+        cout << "  Reads from example_inputs/<filename.csv>\n";
+        return 0;
+    }
+
+    ifstream file(inputFile);
     if (!file) {
-        cout << "orders.csv not found!\n";
+        cout << "File not found: " << inputFile << "\n";
         return 0;
     }
 

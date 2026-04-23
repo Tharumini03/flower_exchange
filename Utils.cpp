@@ -58,7 +58,7 @@ bool validateOrder(std::string clientId, std::string ins, int side, double price
         return false;
     }
 
-    if (ins.empty()) {
+    if (ins != "Rose" && ins != "Lavender" && ins != "Tulip" && ins != "Orchid") {
         reason = "Invalid instrument";
         return false;
     }

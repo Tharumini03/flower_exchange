@@ -1,0 +1,7 @@
+Order ID,Cl.Ord.ID,Instrument,Side,Exec Status,Quantity,Price,Reason,TransactionTime
+ord1,aa1,,1,Reject,100,55.00,Invalid instrument,20260423-110002.051
+ord2,aa2,Rose,3,Reject,100,65.00,Invalid side,20260423-110002.052
+ord3,aa3,Rose,2,Reject,55,55.00,Invalid size,20260423-110002.052
+ord4,aa3,Rose,2,Reject,100,-55.00,Invalid price,20260423-110002.052
+ord5,aa4,Rose,1,Reject,1100,55.00,Invalid size,20260423-110002.052
+ord6,aa5,Mango,1,Reject,100,55.00,Invalid instrument,20260423-110002.052
